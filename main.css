@@ -1,0 +1,167 @@
+html {
+    font-family: "Oswald"; 
+    background-color: white;
+   
+  }
+  * {
+    margin: 0px;
+    padding: 0px;
+    
+  }
+  /*Button*/
+  .btn{
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    text-transform: uppercase;
+  }
+  .btn:hover {
+    color :white;
+    background-color:black;
+  }
+  
+  /*header*/
+ 
+  header{
+    text-align: center;
+    border-bottom: 1px solid #e3e3e8;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 2.2em 2em;
+    
+  }
+  nav ul li {
+    display: inline;
+    padding: 0 .4em;
+    
+  }
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.6em;
+    padding-bottom: 1.3em;
+    transition: .5s color;
+    
+  }
+  nav ul li a:hover {
+    border-bottom: 3px solid #333;
+  }
+  #current {
+    color: #ff4629;
+  }
+  #fb:hover {
+    color: #3b5998;
+  }
+  #twitter:hover {
+    color: #00acee;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+   /*header*/
+   #main-content{
+    margin-right:100px;
+    margin-left: 100px;
+    flex:1;
+   }
+   h3{
+    line-height: 50px;
+   } 
+   p{
+    line-height:25px;
+    font-size:17px;
+   }
+    #chess-free_16x9{
+      width: 600px;
+      height: auto;
+      float: right;
+    }
+    .satir{
+      display: flex;
+      flex-direction: row;
+      margin-top: 80px;
+      border:2px solid #e3e3e8 ;
+      border-radius: 5px; 
+    }
+    #run
+    {
+      width: 6000px; 
+      height:auto;
+      float: right;
+      
+    } 
+   
+    #books
+    {
+      width: 300px; 
+      height: auto;
+      float:right;
+       
+    }
+    #text-button{
+      background-color: white;
+      padding: 20px 45px;
+    
+    }
+    .media{
+      padding: 20px;
+      background-color: #e3e3e8;
+    }
+    /*FOOTER*/
+    footer {
+      margin-top: 45px;
+      background-color: #e3e3e8;
+      color: black;
+      text-align: center;
+      padding: 30px 0;
+      position: relative;
+      font-family: 'Lato', sans-serif;
+  }
+  
+  .footer-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+     
+  }
+  
+  .footer-content p {
+      font-size: 1.2em;
+      
+  }
+  
+  .socials {
+      list-style-type: none;
+      padding: 0;
+      margin: 10px 0;
+  }
+  
+  .socials li {
+      display: inline;
+      margin: 0 10px;
+  }
+  
+  .socials li a {
+      color: black;
+      font-size: 1.5em;
+      transition: color 0.3s ease;
+  }
+  
+  #instagram:hover {
+      color: #DD2A7B ;
+  }
+
+ 
+  
